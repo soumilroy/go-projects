@@ -8,27 +8,6 @@ import (
 	"github.com/eiannone/keyboard"
 )
 
-// basic types, numbers, strings, booleans
-var myInt int
-var myInt16 int16
-var myInt32 int32
-var myInt64 int64
-
-var myUint uint
-var myUint16 uint16
-var myUint32 uint32
-var myUint64 uint64
-
-var myFloat float32
-var myFloat64 float64
-
-var myStr string // strings are immutable
-var myBool bool
-
-// composite types, arrays, slices, maps, structs
-// reference types, pointers, slices, maps, functions, channels
-// interface types, error type, interface{}, custom interfaces
-
 func main() {
 	err := keyboard.Open()
 	hasEscPressed := false
